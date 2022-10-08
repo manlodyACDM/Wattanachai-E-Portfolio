@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | วัฒนชัย บุญไชย</title>
+    <link rel="icon" href="myimg/cool.png">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<style>
+    .portfolio ul {
+     justify-content: center;     
+     display: flex;
+     margin-top: 10px;
+    } 
+    .portfolio ul li{
+        
+        list-style: none;
+        background: #eee;
+        padding: 8px 20px;
+        margin: 5px;
+        letter-spacing: 1px;
+        cursor:pointer;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    
+    }
+    .portfolio ul li.active{
+        background: #03a9f4;
+        color: #fff;
+    } 
+    .loader
+{
+   
+    position: relative;
+
+}
+
+@keyframes blinkCursor {
+
+    0%,75%{
+        opacity: 1;
+    }
+    76%,100%{
+        opacity: 0;
+    }
+}
+
+        
+        @keyframes animate{
+50%{
+    transform: translateY(5px);
+}
+        }
+.loader h2{
+    position: relative;
+    letter-spacing:0.2rem;
+    color: pink;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: -1.5px 5px #492e36, 5px 5px #492e36, -1px -3px #492e36, 5px 0px #492e36;
+    animation: typing 8s steps(22) infinite;
+    overflow: hidden;
+}
+.loader h1{
+    position: relative;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    animation: typing 8s steps(16) infinite;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    0%,90%,100%{
+        width: 0;
+    }
+    30%,60%{
+        width:500px;
+    }
+}
+</style>
+<body>
+    
+
+<header>
+
+    <div class="user">
+        <img src="myimg/1mb pls.JPG" alt="">
+        <h3 class="name">นาย วัฒนชัย บุญไชย</h3>
+        <p class="post">กำลังศึกษาอยู่ในระดับปวช.3</p>
+        <p class="post">ในสาขา <span style="color: rgb(136, 87, 136); font-weight: bold;">Information Technology</span></p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home ">หน้าหลัก</a></li>
+            <li><a href="#about">ข้อมูลส่วนตัว</a></li>
+            <li><a href="#education">ประวัติการศึกษา</a></li>
+            <li><a href="#portfolio">ผลงานและกิจกรรม</a></li>
+            <li><a href="#contact">ช่องทางติดต่อ</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home autotext"id="home">
+    
+<div class="loader">
+    <h1>Hello&nbsp;&nbsp;Welcome&nbsp;&nbsp;To</h1>
+    <h2>My&nbsp;&nbsp;Portfolio&nbsp;&nbsp;website!!!!</h2>
+    <p>ปัจจุบันเป็นนักศึกษาในระดับปวช.3ในสาขาเทคโนโลยีสารสนเทศ<br>ในส่วนของเว็บไซต์นี้สร้างขึ้นเพื่อเป็นการศึกษาการทำเว็บตามTutorial<br>และเป็นแหล่งรวบรวมผลงานส่วนตัวของผม
+    </p></div>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>ข้อมูล</span> ส่วนตัว </h1>
+
+<div class="row1">
+
+    <div class="info">
+     <img src="myimg/DSC_0649 (1).jpg" alt="">
+    </div>
+
+    <div class="counter">
+
+        <div class="info">
+            <h3 style="font-weight: bold; color:rgb(255, 255, 255);"> <span style="color:coral;"> ชื่อ : </span>นาย วัฒนชัย บุญไชย</h3>
+            <h3 style="font-weight: bold; color:rgb(255, 255, 255);"> <span style="color:coral;">ชื่อเล่น : </span>แมน</h3>
+            <h3 style="font-weight: bold; color:rgb(255, 255, 255);"> <span style="color:coral;">อายุ : </span> 17 ปี </h3>
+            <h3 style="font-weight: bold; color:rgb(255, 255, 255);"> <span style="color:coral;">เกิดเมื่อวันที่ : </span> 3 ธันวาคม 2547 </h3>
+            <h3 style="font-weight: bold; color:rgb(255, 255, 255);"> <span style="color:coral;">เชื้อชาติ : </span> ไทย </h3>
+            <h3 style="font-weight: bold; color:rgb(255, 255, 255);"> <span style="color:coral;">สัญชาติ : </span> ไทย </h3>
+            <h3 style="font-weight: bold; color:rgb(255, 255, 255);"> <span style="color:coral;">ศาสนา : </span> พุทธ </h3>
+        </div>
+
+    </div>
+
+</div>
+<div class="btnnext" style="text-align: center; margin-bottom:30px;"><a href="#education"><button class="btn">Next</button></div></a>
+
+    
+     
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> My <span>Education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+
+        <span>เมื่อปี พ.ศ. 2551-2553</span>
+        <img src="myimg/download.png" style="margin-top: 2rem; border-radius: 50%;"alt="">
+
+        <h1 style="color: white; margin-top: 1.5rem;">โรงเรียนทุ่งสองห้อง<br>(คุปตัษเฐียรอุทิศ)</h1>
+        <p>ศึกษาอยู่ในระดับชั้น อนุบาลศึกษา</p>
+
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+
+        <span>เมื่อปี พ.ศ. 2554-2563</span>
+        <img src="myimg/download.png" style="margin-top: 2rem; border-radius: 50%;"alt="">
+
+        <h1 style="color: white; margin-top: 1.5rem;">โรงเรียนทุ่งสองห้อง<br>(คุปตัษเฐียรอุทิศ)</h1>
+        <p>ศึกษาอยู่ในระดับชั้น ประถมศึกษา -<br>มัธยมศึกษาตอนต้น</p>
+
+    </div>
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>เมื่อปี พ.ศ. 2563-ปัจจุบัน</span>
+        <img src="myimg/unnamed.jpg" style="margin-top: 2rem; width: 22rem; height: 22rem; border-radius: 50%;"alt="">
+
+        <h1 style="color: white; margin-top: 1.5rem;">วิทยาลัยเทคโนโลยีสยาม<br>บริหารธุรกิจ SBAC</h1>
+        <p>ปัจจุกำลังศึกษาอยู่ในระดับชั้น <br> ประกาศณียบัตรปีที่ 3 </p>
+        
+    </div>
+
+    
+
+    </div>
+    <div class="btnnext" style="text-align: center;margin-bottom: 50px;" ><a href="#portfolio"><button class="btn">Next</button></a></div>
+
+
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> My <span>Portfolio</span> </h1>
+<ul>
+    <li class="list active " data-filter="All">ทั้งหมด</li>
+    <li class="list " data-filter="Competition">การแข่งขัน</li>
+    <li class="list " data-filter="Activities">กิจกรรม</li>
+    <li class="list " data-filter="Works">ชิ้นงาน / ผลงาน</li>
+
+
+
+</ul>
+
+<div class="box-container">
+    <div class="news-card All Competition" data-name="p-1"> 
+        <a class="news-card__card-link Activities"></a>
+        <img src="portimg/แข่งworldskill1.jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">ร่วมแข่งขัน<br> Worldskill Thailand Compettion</a>
+          <div class="news-card__details-wrapper">
+            <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+    <div class="news-card All Activities" data-name="p-2"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/ไทยอินโด1.jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">จัดการแข่งขันกระชับมิตรEsport ไทย-อินโด</a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+
+    <div class="news-card All Activities" data-name="p-3"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/huawei1.png" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">ศึกษาดูงาน Huawei Connect 2022</a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+
+    <div class="news-card All Activities" data-name="p-4"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/จัดlive1.jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">จัดการแข่งขันเกมและไลฟ์สตรีมในวิทยาลัย</a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+
+    <div class="news-card All Activities" data-name="p-5"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/ดูงานเกม.jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">ศึกษาดูงาน Game Talent Showcase 2022 </a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+
+    <div class="news-card All Activities" data-name="p-6"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/LINE_ALBUM_ลูกศิษย์จอมป่วนกับอาจารย์สุดสวย_๒๒๐๙ (1).jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">กิจกรรมธุรกิจติดดาว</a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+
+    <div class="news-card All Competition" data-name="p-7"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/แข่งเกม1.jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">แข่งขัน SBAC ESPORT BY TRUE 2020</a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+
+    <div class="news-card All Competition" data-name="p-8"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/แข่งเกม2.jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">แข่งขัน NBU OPENHOUSE ESPORT </a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+    <div class="news-card All Activities" data-name="p-9"> 
+        <a class="news-card__card-link"></a>
+        <img src="portimg/voiceactor.jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">เข้าร่วมการอบรมการจัดทำไลฟ์สตรีม<br>และการเป็นนักพากย์ Esport</a>
+          <div class="news-card__details-wrapper">
+                   <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+    <div class="news-card All Works" data-name="p-10"> 
+        <a class="news-card__card-link Activities"></a>
+        <img src="portimg/indexport.JPG" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">ชิ้นงานโปรเจ็ก<br>Kheha2School Website</a>
+          <div class="news-card__details-wrapper">
+            <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+    <div class="news-card All Works" data-name="p-11"> 
+        <a class="news-card__card-link Activities"></a>
+        <img src="portimg/image (2).png" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">ชิ้นงานในวิชาเรียน<br>Ninjaman ในวิชาการสร้างเกมพื้นฐาน</a>
+          <div class="news-card__details-wrapper">
+            <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+    </div>
+    <div class="news-card All Works" data-name="p-12"> 
+        <a class="news-card__card-link Activities"></a>
+        <img src="portimg/308000446_778355406770841_6285804951982331058_n (1).jpg" class="news-card__image" alt="">
+        <div class="news-card__text-wrapper">
+          <a style="font-size: 15px;" class="news-card__title">ชิ้นงานในวิชาเรียน<br>เครื่องตรวจจับเปลวไฟ ในวิชาสมองกลฝังตัว</a>
+          <div class="news-card__details-wrapper">
+            <button class="news-card__read-more"> ดูเพิ่มเติม <i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+        
+    </div>
+    
+    
+    
+<div class="port-preview">
+
+    <div class="preview" data-target="p-1">
+       <i class="fas fa-times"></i>
+       <h3>ร่วมแข่งขัน<br> Worldskill Thailand Compettion ระดับภาค</h3>
+       <img src="portimg/แข่งworldskill1.jpg" alt="">
+
+       <img src="portimg/แข่งworldskill2.jpg">
+
+       <p>ได้มีโอกาศเป็นตัวแทนนักศึกษาวิทยาลัยสยามบริหารธุรกิจสะพานใหม่ไปเข้าร่วมแข่งขันในสาขา <br>Web Design And Development ตอนไปแข่งมีความรู้สึกตื่นเต้นมาก ถึงแม้จะไม่ได้รางวัลกลับมาแต่ก็เป็นหนึ่งสิ่งความภาคภูมิใจในชีวิตวัย 17 ปี ที่ทางวิทยาลัยได้เลือกผมไปเข้าร่วมการแข่งขัน </p>
+      
+    </div>
+ 
+    <div class="preview" data-target="p-2">
+       <i class="fas fa-times"></i>
+       <h3>จัดการแข่งขันกระชับมิตรแข่งเกมอาชีวะไทย-อินโด</h3>
+       <img src="portimg/ไทยอินโด4.png" style="width: 500px;height: 100px;" alt="">
+
+       <img src="portimg/ไทยอินโด1.jpg" style="width: 25rem;"alt="">
+       <img src="portimg/ไทยอินโด2.png" style="width: 25rem;" alt="">
+       <p>ได้มีโอกาศเป็นตัวแทนนักวิทยาลัยสยามบริหารธุรกิจสะพานใหม่จัดการแข่งขัน E-sport ประเภทเกม Valorant กระชับมิตรระหว่างอาชีวะศึกษาประเทศไทยและประเทศอินโดนีเซีย</p>
+
+    </div>
+ 
+    <div class="preview" data-target="p-3">
+       <i class="fas fa-times"></i>
+       <h3>เข้าร่วมศึกษาดูงาน Huawei Connect 2022</h3>
+
+       <img src="portimg/huawei1.png" alt="">
+       <img src="portimg/Huawei2.jpg" alt="">
+       <img src="portimg/Huawei3.jpg" alt="">
+       <p>มีโอกาศได้เดินทางไปศึกษาดูงาน Huawei Connect 2022 Bangkok <br>งานมหกรรมประจำปีด้านเทคโนโลยี ICT ที่ ศูนย์ศิริกิต</p>
+
+
+    </div>
+ 
+    <div class="preview" data-target="p-4">
+       <i class="fas fa-times"></i>
+       <h3>เป็นนักศึกษาในชมรมจัดแข่งเกมและไลฟ์สตรีมการแข่งขัน</h3>
+
+       <img src="portimg/game3  (1).png" style="width: 40rem;" alt="">
+
+       <img src="portimg/game3  (2).png" style="width: 40rem;" alt="">
+
+       <p>ได้รับโอกาศจากอาจารย์ให้มาทำงานเกี่ยวกับ E-sport ในการจัดการแข่งขันให้เด็กภายในวิทยาลัย<br>และทำเบื้องหลังการถ่ายทอดสดการแข่งขัน (ส่วนมากรับหน้าที่ Game Capture)</p>
+
+      
+    </div>
+ 
+    <div class="preview" data-target="p-5">
+       <i class="fas fa-times"></i>
+       <h3>ศึกษาดูงาน Game Talent Showcase 2022</h3>
+       <img src="portimg/ดูงานเกม.jpg" style="width: 40rem;"alt="">
+       <p>ได้รับเลือกเป็นตัวแทนนักศึกษาทางวิทยาลัย SBAC สะพานใหม่<br> ไปร่วมชมงานที่ส่งเสริมอุตสากรรมซอฟแวร์เกมไทย</p>
+      
+    </div>
+ 
+    <div class="preview" data-target="p-6">
+       <i class="fas fa-times"></i>
+       <h3>ธุรกิจติดดาว</h3>
+
+       <img src="portimg/LINE_ALBUM_ลูกศิษย์จอมป่วนกับอาจารย์สุดสวย_๒๒๐๙ (1).jpg" style="width: 40rem;"alt="">
+       <p>ได้ทำลองลงมือทำธุรกิจการขายสินค้าผ่านช่องทาง Online กับเพื่อนในห้องเรียน <br>โดยมีการทำแผนธุรกิจประกอบในรายวิชาธุรกิจและผู้ประกอบการ</p>
+      
+    </div>
+
+    <div class="preview" data-target="p-7">
+        <i class="fas fa-times"></i>
+        <h3>แข่งขัน Sbac Esport By True ประเภทเกม ROV</h3>
+
+        <img src="portimg/แข่งเกม1.jpg" style="width: 40rem; " alt="">
+       
+        <p>ได้รางวัลรองชนะเลิศอันดับที่ 1</p>
+       
+     </div>
+
+     <div class="preview" data-target="p-8">
+        <i class="fas fa-times"></i>
+        <h3>แข่งขัน NBU OPEN HOUSE ESPORT ประเภทเกม ROV</h3>
+
+        <img src="portimg/แข่งเกม2.jpg" style="width: 40rem; " alt="">
+       
+        <p>ได้รางวัลชนะเลิศอันดับที่ 1</p>
+       
+     </div>
+
+     <div class="preview" data-target="p-9">
+        <i class="fas fa-times"></i>
+        <h3>เข้าร่วมการอบรม ESPORTS กับ SPECTRE GROWTH </h3>
+        <img src="portimg/310668426_5898673853490739_5056523547113919237_n.jpg" style="width: 40rem;" alt="">
+
+        <p>เรียนรู้เรื่องเกี่ยวกับเกมดังต่างๆ และการทำจัดทำไลฟ์สตรีมเกม และการเป็นนักพากย์ที่ดี</p>
+      
+     </div>
+
+     <div class="preview" data-target="p-10">
+        <i class="fas fa-times"></i>
+        <h3>เว็บไซต์โรงเรียนเคหะทุ่งสองห้องวิทยา2(กำลังพัฒนา)</h3>
+        <img src="portimg/indexport.JPG" style="width: 25rem;" alt="">
+        <img src="portimg/newnew.JPG"style="width: 25rem;"alt="">
+
+        <img src="portimg/news.JPG"style="width: 25rem;"alt="">
+       
+        <p>ผลงานนี้คืองานโปรเจกต์จบ ปวช.3 ซึ่งมีการร่วมงานกับสถานประกอบการ
+            โดยในตัวเว็บจะมีข้อมูลต่างๆและมีการทำระบบหลังบ้านที่ใช้ภาษา PHP โดยมีระบบคร่าวๆดังนี้ 
+            มีระบบการล็อคอิน,และลงทะเบียนเข้าสู่ระบบ,
+            ระบบการจัดการสมาชิก,ระบบการเพิ่ม/ลบ/แก้ไขประเภทหัวข้อข่าว,
+            ระบบการเพิ่ม/ลบ/แก้ไข ข้อมูลข่าวสาร , ระบบเปลี่ยนรูป Banner ในหน้าของเว็บ,
+            ระบบเพิ่มรูปภาพบุคลากรณ์ในโรงเรียน</p>
+       
+     </div>
+
+     <div class="preview" data-target="p-11">
+        <i class="fas fa-times"></i>
+        <h3>การสร้างเกมเบื้องต้น Ninja man</h3>
+        <img src="portimg/gamegame1.JPG" style="width: 40rem;" alt="">
+        <img src="portimg/gamegame2.JPG" style="width: 40rem;" alt="">
+       
+        <p>ผลงานนี้คืองานโปรเจกต์จบ ปวช.3 ซึ่งมีการร่วมงานกับสถานประกอบการ
+            โดยในตัวเว็บจะมีข้อมูลต่างๆและมีการทำระบบหลังบ้านที่ใช้ภาษา PHP โดยมีระบบคร่าวๆดังนี้ 
+            มีระบบการล็อคอิน,และลงทะเบียนเข้าสู่ระบบ,
+            ระบบการจัดการสมาชิก,ระบบการเพิ่ม/ลบ/แก้ไขประเภทหัวข้อข่าว,
+            ระบบการเพิ่ม/ลบ/แก้ไข ข้อมูลข่าวสาร , ระบบเปลี่ยนรูป Banner ในหน้าของเว็บ,
+            ระบบเพิ่มรูปภาพบุคลากรณ์ในโรงเรียน</p>
+       
+     </div>
+
+     <div class="preview" data-target="p-12">
+        <i class="fas fa-times"></i>
+        <h3>เครื่องตรวจจับเปลวไฟ</h3>
+        <img src="portimg/308000446_778355406770841_6285804951982331058_n (1).jpg" style="width: 40rem;" alt="">       
+        <p>ชิ้นงานนี้เป็นส่วนของวิชา สมองกลฝังตัว โดยมีการให้คิดปัญหาของคนรอบข้างและให้นำปัญหามาแก้ไข
+            ด้วยการทำชิ้นงานขึ้นโดยกลุ่มผมเลือกทำเป็นเครื่องตรวจจับเปลวไฟเนื่องจากมีสมาชิกในกลุ่ม
+            ที่ทำร้านอาหารจึงทำชิ้นงานนี้ขึ้นมาเพื่อป้องกันความปลอดภัยเบื้องต้น<br> โดยการทำงานของเซนเซอร์อยู่ที่ 30-40 ซม. เมื่อตรวจพบเปลวไฟ จะส่งเสียง</p>
+       
+     </div>
+ 
+
+ </div>
+</div>
+ <div class="btnnext" style="text-align: center; margin-bottom:30px;"><a href="#contact"><button class="btn">Next</button></div></a>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>Contact</span> Me </h1>
+
+<div class="row">
+
+    <div class="content" style="margin-bottom: 3rem;">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> aliceman10210@gmail.com</h3>
+            <h3> <i class="fas fa-phone"></i>083-474-5429</h3>
+            <h3> <a href="https://www.facebook.com/manlodyz"><i class='fab fa-facebook'></i>Wattanachai Man</h3></a>
+            <h3> <a href="https://www.instagram.com/wtnc_man/"><i class='fab fa-instagram'></i>wtnc_man</h3></a>
+            <h3> <i class='fab fa-line'></i>ID:bigmanz_    || Phone:0834745429</h3>
+
+        </div>
+        <div id="testest" class="fas fa-angle-down"></div>
+
+    </div>
+
+</div>
+<div class="btnnext" style="text-align: center; margin-bottom:30px;"><a href="#home"><button class="btn">BACK TO MAIN PAGE</button></div></a>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.list').click(function() {
+            const value = $ (this).attr('data-filter');
+                if(value == 'all'){
+                    $('.news-card').show('1000');
+                }
+                else{
+                    $('.news-card').not('.'+value).hide('1000');
+                    $('.news-card').filter('.'+value).show('1000');
+
+                }
+        })
+   
+    $('.list').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        })
+    })
+</script>
+<script>
+    let preveiwContainer = document.querySelector('.port-preview');
+let previewBox = preveiwContainer.querySelectorAll('.preview');
+
+document.querySelectorAll('.box-container .news-card').forEach(product =>{
+  product.onclick = () =>{
+    preveiwContainer.style.display = 'flex';
+    let name = product.getAttribute('data-name');
+    previewBox.forEach(preview =>{
+      let target = preview.getAttribute('data-target');
+      if(name == target){
+        preview.classList.add('active');
+      }
+    });
+  };
+});
+
+previewBox.forEach(close =>{
+  close.querySelector('.fa-times').onclick = () =>{
+    close.classList.remove('active');
+    preveiwContainer.style.display = 'none';
+  };
+});
+</script>
+</body>
+</html>
